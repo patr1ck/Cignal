@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09144A7313C2997E00388B00 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09144A7213C2997E00388B00 /* Entitlements.plist */; };
+		092354B313A1D7EB00DA740F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092354B213A1D7EB00DA740F /* CFNetwork.framework */; };
+		092354B513A1D7F000DA740F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092354B413A1D7F000DA740F /* SystemConfiguration.framework */; };
+		092354B713A1D83C00DA740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092354B613A1D83C00DA740F /* MobileCoreServices.framework */; };
+		094ACA0014367ACD008398F8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AC9FF14367ACD008398F8 /* Parse.framework */; };
+		095ACE8613C68EA300566243 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095ACE8513C68EA300566243 /* AudioToolbox.framework */; };
+		099CCEAD13F9E3760039A464 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 099CCEAC13F9E3760039A464 /* libz.1.1.3.dylib */; };
+		09ABC07213A1D52D009C3FCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07113A1D52D009C3FCF /* UIKit.framework */; };
+		09ABC07413A1D52D009C3FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07313A1D52D009C3FCF /* Foundation.framework */; };
+		09ABC07613A1D52D009C3FCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07513A1D52D009C3FCF /* CoreGraphics.framework */; };
+		09ABC07C13A1D52D009C3FCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07A13A1D52D009C3FCF /* InfoPlist.strings */; };
+		09ABC07F13A1D52D009C3FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABC07E13A1D52D009C3FCF /* main.m */; };
+		09ABC08213A1D52D009C3FCF /* CignalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABC08113A1D52D009C3FCF /* CignalAppDelegate.m */; };
+		09ABC08513A1D52E009C3FCF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC08313A1D52D009C3FCF /* MainWindow.xib */; };
+		09ABC08813A1D52E009C3FCF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABC08713A1D52E009C3FCF /* LoginViewController.m */; };
+		09ABC08B13A1D52E009C3FCF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC08913A1D52E009C3FCF /* LoginViewController.xib */; };
+		09BEF34C13D51C3F001BBCDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BEF34B13D51C3F001BBCDB /* Security.framework */; };
+		CD38A494146CC562002D4C8A /* CignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A492146CC562002D4C8A /* CignalViewController.m */; };
+		CD38A495146CC562002D4C8A /* CignalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD38A493146CC562002D4C8A /* CignalViewController.xib */; };
+		CD4AD1EB14B9601500ECF8E0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4AD1EA14B9601500ECF8E0 /* icon@2x.png */; };
+		CD6ADE401471AB3900552C4B /* sign_in_with_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6ADE3E1471AB3800552C4B /* sign_in_with_twitter.png */; };
+		CD6ADE411471AB3900552C4B /* sign_in_with_twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6ADE3F1471AB3900552C4B /* sign_in_with_twitter@2x.png */; };
+		CD6DC59D14BA1DF800896256 /* x_button.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6DC59B14BA1DF800896256 /* x_button.png */; };
+		CD6DC59E14BA1DF800896256 /* x_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6DC59C14BA1DF800896256 /* x_button@2x.png */; };
+		CDBDCF9B14BA5F8A003AEB32 /* FriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCF9914BA5F8A003AEB32 /* FriendsListViewController.m */; };
+		CDE448DB147C617200B0B861 /* SLPGradientSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE448DA147C617200B0B861 /* SLPGradientSelector.m */; };
+		CDE448E2147C65D200B0B861 /* CignalColorSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE448E1147C65D200B0B861 /* CignalColorSelectorCell.m */; };
+		CDFD8453146B3B78008292B3 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD8452146B3B78008292B3 /* Twitter.framework */; };
+		CDFD8455146B3C20008292B3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD8454146B3C20008292B3 /* Accounts.framework */; };
+		CDFD8461146B6EA4008292B3 /* CignalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD845F146B6EA4008292B3 /* CignalListViewController.m */; };
+		CDFD8462146B6EA4008292B3 /* CignalListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFD8460146B6EA4008292B3 /* CignalListViewController.xib */; };
+		CDFD8467146B9948008292B3 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD8464146B9948008292B3 /* NSString+MD5Addition.m */; };
+		CDFD8468146B9948008292B3 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD8466146B9948008292B3 /* UIDevice+IdentifierAddition.m */; };
+		CDFD846B146BA817008292B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD846A146BA817008292B3 /* QuartzCore.framework */; };
+		CDFD846F146C6F65008292B3 /* CreateCignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD846D146C6F65008292B3 /* CreateCignalViewController.m */; };
+		CDFD8470146C6F65008292B3 /* CreateCignalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFD846E146C6F65008292B3 /* CreateCignalViewController.xib */; };
+		CDFD8476146C97AE008292B3 /* CignalEditableTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD8475146C97AE008292B3 /* CignalEditableTextTableViewCell.m */; };
+		CDFD847A146C9C23008292B3 /* CignalSegmentedControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD8479146C9C23008292B3 /* CignalSegmentedControlView.m */; };
+		CDFDF0001475AF4C00928E30 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDEFFF1475AF4C00928E30 /* icon.png */; };
+		CDFDF004147723DB00928E30 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFDF002147723DB00928E30 /* libTestFlight.a */; };
+		CDFDF01E147CB93500928E30 /* SLPWeightedGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDF01D147CB93500928E30 /* SLPWeightedGradientView.m */; };
+		CDFE041D147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE041C147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09144A7213C2997E00388B00 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		092354AF13A1D7E200DA740F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		092354B213A1D7EB00DA740F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		092354B413A1D7F000DA740F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		092354B613A1D83C00DA740F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		094AC9FF14367ACD008398F8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		095ACE8513C68EA300566243 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		099CCEAC13F9E3760039A464 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		09ABC06D13A1D52D009C3FCF /* Cignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09ABC07113A1D52D009C3FCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09ABC07313A1D52D009C3FCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09ABC07513A1D52D009C3FCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09ABC07913A1D52D009C3FCF /* Cignal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cignal-Info.plist"; sourceTree = "<group>"; };
+		09ABC07B13A1D52D009C3FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09ABC07D13A1D52D009C3FCF /* Cignal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cignal-Prefix.pch"; sourceTree = "<group>"; };
+		09ABC07E13A1D52D009C3FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09ABC08013A1D52D009C3FCF /* CignalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CignalAppDelegate.h; path = Cignal/CignalAppDelegate.h; sourceTree = "<group>"; };
+		09ABC08113A1D52D009C3FCF /* CignalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CignalAppDelegate.m; path = Cignal/CignalAppDelegate.m; sourceTree = "<group>"; };
+		09ABC08413A1D52E009C3FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		09ABC08613A1D52E009C3FCF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		09ABC08713A1D52E009C3FCF /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		09ABC08A13A1D52E009C3FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginViewController.xib; sourceTree = "<group>"; };
+		09BEF34B13D51C3F001BBCDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD38A491146CC562002D4C8A /* CignalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CignalViewController.h; sourceTree = "<group>"; };
+		CD38A492146CC562002D4C8A /* CignalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignalViewController.m; sourceTree = "<group>"; };
+		CD38A493146CC562002D4C8A /* CignalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CignalViewController.xib; sourceTree = "<group>"; };
+		CD4AD1EA14B9601500ECF8E0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Cignal/Images/icon@2x.png"; sourceTree = "<group>"; };
+		CD6ADE3E1471AB3800552C4B /* sign_in_with_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sign_in_with_twitter.png; path = Cignal/Images/sign_in_with_twitter.png; sourceTree = "<group>"; };
+		CD6ADE3F1471AB3900552C4B /* sign_in_with_twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign_in_with_twitter@2x.png"; path = "Cignal/Images/sign_in_with_twitter@2x.png"; sourceTree = "<group>"; };
+		CD6DC59B14BA1DF800896256 /* x_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x_button.png; path = Cignal/Images/x_button.png; sourceTree = "<group>"; };
+		CD6DC59C14BA1DF800896256 /* x_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "x_button@2x.png"; path = "Cignal/Images/x_button@2x.png"; sourceTree = "<group>"; };
+		CDBDCF9814BA5F8A003AEB32 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsListViewController.h; sourceTree = "<group>"; };
+		CDBDCF9914BA5F8A003AEB32 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsListViewController.m; sourceTree = "<group>"; };
+		CDE448D9147C617200B0B861 /* SLPGradientSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLPGradientSelector.h; path = Cignal/SLPGradientSelector.h; sourceTree = "<group>"; };
+		CDE448DA147C617200B0B861 /* SLPGradientSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLPGradientSelector.m; path = Cignal/SLPGradientSelector.m; sourceTree = "<group>"; };
+		CDE448E0147C65D200B0B861 /* CignalColorSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CignalColorSelectorCell.h; path = Cignal/CignalColorSelectorCell.h; sourceTree = "<group>"; };
+		CDE448E1147C65D200B0B861 /* CignalColorSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CignalColorSelectorCell.m; path = Cignal/CignalColorSelectorCell.m; sourceTree = "<group>"; };
+		CDFD8452146B3B78008292B3 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CDFD8454146B3C20008292B3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CDFD845E146B6EA4008292B3 /* CignalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CignalListViewController.h; sourceTree = "<group>"; };
+		CDFD845F146B6EA4008292B3 /* CignalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignalListViewController.m; sourceTree = "<group>"; };
+		CDFD8460146B6EA4008292B3 /* CignalListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CignalListViewController.xib; sourceTree = "<group>"; };
+		CDFD8463146B9948008292B3 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		CDFD8464146B9948008292B3 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		CDFD8465146B9948008292B3 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		CDFD8466146B9948008292B3 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		CDFD846A146BA817008292B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDFD846C146C6F65008292B3 /* CreateCignalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCignalViewController.h; sourceTree = "<group>"; };
+		CDFD846D146C6F65008292B3 /* CreateCignalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCignalViewController.m; sourceTree = "<group>"; };
+		CDFD846E146C6F65008292B3 /* CreateCignalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCignalViewController.xib; sourceTree = "<group>"; };
+		CDFD8474146C97AE008292B3 /* CignalEditableTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CignalEditableTextTableViewCell.h; path = Cignal/CignalEditableTextTableViewCell.h; sourceTree = "<group>"; };
+		CDFD8475146C97AE008292B3 /* CignalEditableTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CignalEditableTextTableViewCell.m; path = Cignal/CignalEditableTextTableViewCell.m; sourceTree = "<group>"; };
+		CDFD8478146C9C23008292B3 /* CignalSegmentedControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CignalSegmentedControlView.h; path = Cignal/CignalSegmentedControlView.h; sourceTree = "<group>"; };
+		CDFD8479146C9C23008292B3 /* CignalSegmentedControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CignalSegmentedControlView.m; path = Cignal/CignalSegmentedControlView.m; sourceTree = "<group>"; };
+		CDFDEFFF1475AF4C00928E30 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Cignal/Images/icon.png; sourceTree = "<group>"; };
+		CDFDF002147723DB00928E30 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		CDFDF003147723DB00928E30 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		CDFDF01C147CB93500928E30 /* SLPWeightedGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLPWeightedGradientView.h; path = Cignal/SLPWeightedGradientView.h; sourceTree = "<group>"; };
+		CDFDF01D147CB93500928E30 /* SLPWeightedGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLPWeightedGradientView.m; path = Cignal/SLPWeightedGradientView.m; sourceTree = "<group>"; };
+		CDFE041B147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CignalSegmentedBarGraphCell.h; path = Cignal/CignalSegmentedBarGraphCell.h; sourceTree = "<group>"; };
+		CDFE041C147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CignalSegmentedBarGraphCell.m; path = Cignal/CignalSegmentedBarGraphCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09ABC06A13A1D52D009C3FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD846B146BA817008292B3 /* QuartzCore.framework in Frameworks */,
+				CDFD8455146B3C20008292B3 /* Accounts.framework in Frameworks */,
+				CDFD8453146B3B78008292B3 /* Twitter.framework in Frameworks */,
+				099CCEAD13F9E3760039A464 /* libz.1.1.3.dylib in Frameworks */,
+				09BEF34C13D51C3F001BBCDB /* Security.framework in Frameworks */,
+				095ACE8613C68EA300566243 /* AudioToolbox.framework in Frameworks */,
+				092354B713A1D83C00DA740F /* MobileCoreServices.framework in Frameworks */,
+				092354B513A1D7F000DA740F /* SystemConfiguration.framework in Frameworks */,
+				092354B313A1D7EB00DA740F /* CFNetwork.framework in Frameworks */,
+				09ABC07613A1D52D009C3FCF /* CoreGraphics.framework in Frameworks */,
+				09ABC07213A1D52D009C3FCF /* UIKit.framework in Frameworks */,
+				09ABC07413A1D52D009C3FCF /* Foundation.framework in Frameworks */,
+				094ACA0014367ACD008398F8 /* Parse.framework in Frameworks */,
+				CDFDF004147723DB00928E30 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09ABC06213A1D52D009C3FCF = {
+			isa = PBXGroup;
+			children = (
+				09ABC08013A1D52D009C3FCF /* CignalAppDelegate.h */,
+				09ABC08113A1D52D009C3FCF /* CignalAppDelegate.m */,
+				09ABC08313A1D52D009C3FCF /* MainWindow.xib */,
+				09ABC07713A1D52D009C3FCF /* Controllers */,
+				CDFDF01B147CB7DA00928E30 /* Custom Views */,
+				CDE448D7147C613D00B0B861 /* Custom Controls */,
+				CDFD8477146C9899008292B3 /* Custom Table View Cells */,
+				09ABC07813A1D52D009C3FCF /* Supporting Files */,
+				09ABC07013A1D52D009C3FCF /* Frameworks */,
+				09ABC06E13A1D52D009C3FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09ABC06E13A1D52D009C3FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09ABC06D13A1D52D009C3FCF /* Cignal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09ABC07013A1D52D009C3FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD846A146BA817008292B3 /* QuartzCore.framework */,
+				CDFD8454146B3C20008292B3 /* Accounts.framework */,
+				CDFD8452146B3B78008292B3 /* Twitter.framework */,
+				094AC9FF14367ACD008398F8 /* Parse.framework */,
+				099CCEAC13F9E3760039A464 /* libz.1.1.3.dylib */,
+				09BEF34B13D51C3F001BBCDB /* Security.framework */,
+				095ACE8513C68EA300566243 /* AudioToolbox.framework */,
+				092354B613A1D83C00DA740F /* MobileCoreServices.framework */,
+				092354B413A1D7F000DA740F /* SystemConfiguration.framework */,
+				092354B213A1D7EB00DA740F /* CFNetwork.framework */,
+				092354AF13A1D7E200DA740F /* CoreGraphics.framework */,
+				09ABC07113A1D52D009C3FCF /* UIKit.framework */,
+				09ABC07313A1D52D009C3FCF /* Foundation.framework */,
+				09ABC07513A1D52D009C3FCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09ABC07713A1D52D009C3FCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09ABC08613A1D52E009C3FCF /* LoginViewController.h */,
+				09ABC08713A1D52E009C3FCF /* LoginViewController.m */,
+				09ABC08913A1D52E009C3FCF /* LoginViewController.xib */,
+				CDFD845E146B6EA4008292B3 /* CignalListViewController.h */,
+				CDFD845F146B6EA4008292B3 /* CignalListViewController.m */,
+				CDFD8460146B6EA4008292B3 /* CignalListViewController.xib */,
+				CDFD846C146C6F65008292B3 /* CreateCignalViewController.h */,
+				CDFD846D146C6F65008292B3 /* CreateCignalViewController.m */,
+				CDFD846E146C6F65008292B3 /* CreateCignalViewController.xib */,
+				CD38A491146CC562002D4C8A /* CignalViewController.h */,
+				CD38A492146CC562002D4C8A /* CignalViewController.m */,
+				CD38A493146CC562002D4C8A /* CignalViewController.xib */,
+				CDBDCF9814BA5F8A003AEB32 /* FriendsListViewController.h */,
+				CDBDCF9914BA5F8A003AEB32 /* FriendsListViewController.m */,
+			);
+			name = Controllers;
+			path = Cignal;
+			sourceTree = "<group>";
+		};
+		09ABC07813A1D52D009C3FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6ADE351471998300552C4B /* Images */,
+				CDFD8469146B9951008292B3 /* 3rd Party */,
+				09ABC07913A1D52D009C3FCF /* Cignal-Info.plist */,
+				09144A7213C2997E00388B00 /* Entitlements.plist */,
+				09ABC07A13A1D52D009C3FCF /* InfoPlist.strings */,
+				09ABC07D13A1D52D009C3FCF /* Cignal-Prefix.pch */,
+				09ABC07E13A1D52D009C3FCF /* main.m */,
+			);
+			name = "Supporting Files";
+			path = Cignal;
+			sourceTree = "<group>";
+		};
+		CD6ADE351471998300552C4B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DC59B14BA1DF800896256 /* x_button.png */,
+				CD6DC59C14BA1DF800896256 /* x_button@2x.png */,
+				CD4AD1EA14B9601500ECF8E0 /* icon@2x.png */,
+				CDFDEFFF1475AF4C00928E30 /* icon.png */,
+				CD6ADE3E1471AB3800552C4B /* sign_in_with_twitter.png */,
+				CD6ADE3F1471AB3900552C4B /* sign_in_with_twitter@2x.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CDE448D7147C613D00B0B861 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CDE448D9147C617200B0B861 /* SLPGradientSelector.h */,
+				CDE448DA147C617200B0B861 /* SLPGradientSelector.m */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		CDFD8469146B9951008292B3 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				CDFDF005147723E700928E30 /* TestFlight */,
+				CDFD8463146B9948008292B3 /* NSString+MD5Addition.h */,
+				CDFD8464146B9948008292B3 /* NSString+MD5Addition.m */,
+				CDFD8465146B9948008292B3 /* UIDevice+IdentifierAddition.h */,
+				CDFD8466146B9948008292B3 /* UIDevice+IdentifierAddition.m */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		CDFD8477146C9899008292B3 /* Custom Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD8474146C97AE008292B3 /* CignalEditableTextTableViewCell.h */,
+				CDFD8475146C97AE008292B3 /* CignalEditableTextTableViewCell.m */,
+				CDFD8478146C9C23008292B3 /* CignalSegmentedControlView.h */,
+				CDFD8479146C9C23008292B3 /* CignalSegmentedControlView.m */,
+				CDE448E0147C65D200B0B861 /* CignalColorSelectorCell.h */,
+				CDE448E1147C65D200B0B861 /* CignalColorSelectorCell.m */,
+				CDFE041B147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.h */,
+				CDFE041C147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.m */,
+			);
+			name = "Custom Table View Cells";
+			sourceTree = "<group>";
+		};
+		CDFDF005147723E700928E30 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				CDFDF002147723DB00928E30 /* libTestFlight.a */,
+				CDFDF003147723DB00928E30 /* TestFlight.h */,
+			);
+			name = TestFlight;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CDFDF01B147CB7DA00928E30 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDFDF01C147CB93500928E30 /* SLPWeightedGradientView.h */,
+				CDFDF01D147CB93500928E30 /* SLPWeightedGradientView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09ABC06C13A1D52D009C3FCF /* Cignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09ABC08E13A1D52E009C3FCF /* Build configuration list for PBXNativeTarget "Cignal" */;
+			buildPhases = (
+				CD4AD1EC14B962A300ECF8E0 /* ShellScript */,
+				09ABC06913A1D52D009C3FCF /* Sources */,
+				09ABC06A13A1D52D009C3FCF /* Frameworks */,
+				09ABC06B13A1D52D009C3FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cignal;
+			productName = Cignal;
+			productReference = 09ABC06D13A1D52D009C3FCF /* Cignal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09ABC06413A1D52D009C3FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 09ABC06713A1D52D009C3FCF /* Build configuration list for PBXProject "Cignal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09ABC06213A1D52D009C3FCF;
+			productRefGroup = 09ABC06E13A1D52D009C3FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09ABC06C13A1D52D009C3FCF /* Cignal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09ABC06B13A1D52D009C3FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09ABC07C13A1D52D009C3FCF /* InfoPlist.strings in Resources */,
+				09ABC08513A1D52E009C3FCF /* MainWindow.xib in Resources */,
+				09ABC08B13A1D52E009C3FCF /* LoginViewController.xib in Resources */,
+				09144A7313C2997E00388B00 /* Entitlements.plist in Resources */,
+				CDFD8462146B6EA4008292B3 /* CignalListViewController.xib in Resources */,
+				CDFD8470146C6F65008292B3 /* CreateCignalViewController.xib in Resources */,
+				CD38A495146CC562002D4C8A /* CignalViewController.xib in Resources */,
+				CD6ADE401471AB3900552C4B /* sign_in_with_twitter.png in Resources */,
+				CD6ADE411471AB3900552C4B /* sign_in_with_twitter@2x.png in Resources */,
+				CDFDF0001475AF4C00928E30 /* icon.png in Resources */,
+				CD4AD1EB14B9601500ECF8E0 /* icon@2x.png in Resources */,
+				CD6DC59D14BA1DF800896256 /* x_button.png in Resources */,
+				CD6DC59E14BA1DF800896256 /* x_button@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD4AD1EC14B962A300ECF8E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "# This script sets the Parse/Testflight keys in the info plist from a .api_keys file you keep in\n# your home directory. This lets me not submit the keys to githib ;)\n\n# Fail if not run from Xcode\nraise \"Must be run from Xcode\" unless ENV['XCODE_VERSION_ACTUAL']\n\ninfo_plist = \"#{ENV['BUILT_PRODUCTS_DIR']}/#{ENV['INFOPLIST_PATH']}\"\n\n# When building for the device, the plist is already converted to binary, so change it back.\n`plutil -convert xml1 #{info_plist}`\n\n# Hack to load our keys\nkeys = IO.readlines(\"/Users/#{ENV['USER']}/.api_keys\").join\nkeys.each do |line|\n    key, value = line.split(\"=\")\n    puts \"Loading #{key} = #{value}\"\n    ENV[key] = value.strip!\nend\n\n# Open Info.plist and set the appropriate  value to the revision hash\nlines = IO.readlines(info_plist).join\nlines.gsub! /(<key>ParseProdAppID<\\/key>\\n\\t<string>).*?(<\\/string>)/, \"\\\\1#{ENV['PARSE_CIGNAL_PROD_APP_ID']}\\\\2\"\nlines.gsub! /(<key>ParseProdClientKey<\\/key>\\n\\t<string>).*?(<\\/string>)/, \"\\\\1#{ENV['PARSE_CIGNAL_PROD_CLIENT_KEY']}\\\\2\"\nlines.gsub! /(<key>ParseDevAppID<\\/key>\\n\\t<string>).*?(<\\/string>)/, \"\\\\1#{ENV['PARSE_CIGNAL_DEV_APP_ID']}\\\\2\"\nlines.gsub! /(<key>ParseDevClientKey<\\/key>\\n\\t<string>).*?(<\\/string>)/, \"\\\\1#{ENV['PARSE_CIGNAL_DEV_CLIENT_KEY']}\\\\2\"\nlines.gsub! /(<key>TestFlightKey<\\/key>\\n\\t<string>).*?(<\\/string>)/, \"\\\\1#{ENV['TESTFLIGHT_CIGNAL']}\\\\2\"\n\n# Overwrite the original Info.plist file with our updated version\nFile.open(info_plist, 'w') {|f| f.puts lines}\n\nif ENV['EFFECTIVE_PLATFORM_NAME'] == \"-iphonesimulator\" then\n    `plutil -convert xml1 #{info_plist}`\nelse\n    `plutil -convert binary1 #{info_plist}`\nend\n\n\n# Report to the user\nputs \"Updated the API Keys\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09ABC06913A1D52D009C3FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09ABC07F13A1D52D009C3FCF /* main.m in Sources */,
+				09ABC08213A1D52D009C3FCF /* CignalAppDelegate.m in Sources */,
+				09ABC08813A1D52E009C3FCF /* LoginViewController.m in Sources */,
+				CDFD8461146B6EA4008292B3 /* CignalListViewController.m in Sources */,
+				CDFD8467146B9948008292B3 /* NSString+MD5Addition.m in Sources */,
+				CDFD8468146B9948008292B3 /* UIDevice+IdentifierAddition.m in Sources */,
+				CDFD846F146C6F65008292B3 /* CreateCignalViewController.m in Sources */,
+				CDFD8476146C97AE008292B3 /* CignalEditableTextTableViewCell.m in Sources */,
+				CDFD847A146C9C23008292B3 /* CignalSegmentedControlView.m in Sources */,
+				CD38A494146CC562002D4C8A /* CignalViewController.m in Sources */,
+				CDE448DB147C617200B0B861 /* SLPGradientSelector.m in Sources */,
+				CDE448E2147C65D200B0B861 /* CignalColorSelectorCell.m in Sources */,
+				CDFDF01E147CB93500928E30 /* SLPWeightedGradientView.m in Sources */,
+				CDFE041D147CD7FE00B49F99 /* CignalSegmentedBarGraphCell.m in Sources */,
+				CDBDCF9B14BA5F8A003AEB32 /* FriendsListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09ABC07A13A1D52D009C3FCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09ABC07B13A1D52D009C3FCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09ABC08313A1D52D009C3FCF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09ABC08413A1D52E009C3FCF /* en */,
+			);
+			name = MainWindow.xib;
+			path = Cignal;
+			sourceTree = "<group>";
+		};
+		09ABC08913A1D52E009C3FCF /* LoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09ABC08A13A1D52E009C3FCF /* en */,
+			);
+			name = LoginViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09ABC08C13A1D52E009C3FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09ABC08D13A1D52E009C3FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		09ABC08F13A1D52E009C3FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cignal/Cignal-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Cignal/Cignal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Cignal;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09ABC09013A1D52E009C3FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Patrick Gibson";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cignal/Cignal-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Cignal/Cignal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Cignal;
+				PROVISIONING_PROFILE = "98E619FF-B45F-4AB2-8A24-3FC082341D54";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09ABC06713A1D52D009C3FCF /* Build configuration list for PBXProject "Cignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09ABC08C13A1D52E009C3FCF /* Debug */,
+				09ABC08D13A1D52E009C3FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09ABC08E13A1D52E009C3FCF /* Build configuration list for PBXNativeTarget "Cignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09ABC08F13A1D52E009C3FCF /* Debug */,
+				09ABC09013A1D52E009C3FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09ABC06413A1D52D009C3FCF /* Project object */;
+}
